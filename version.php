@@ -8,7 +8,7 @@ defined('MOODLE_INTERNAL') || die();
 $plugin->version = '2016102100';                                                                                                    
                                                                                                                                     
 // To jest wersja Moodle, której wymaga ta wtyczka.                                                                              
-$plugin->requires = '2016070700';                                                                                                   
+$plugin->requires = '2016112900.00';                                                                                                   
                                                                                                                                     
 // To jest nazwa komponentu wtyczki — zawsze zaczyna się od „theme_” dla motywów i powinna być taka sama jak nazwa folderu.                                                                  
 $plugin->component = 'theme_first_theme';                                                                                                 
