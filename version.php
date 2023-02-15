@@ -1,20 +1,19 @@
 <?php
-// Every file should have GPL and copyright in the header - we skip it in tutorials but you should not skip it for real.
+// Każdy plik powinien mieć w nagłówku GPL i copyright - pomijamy to w tutorialach, ale naprawdę nie powinieneś tego pomijać.
 
-// This line protects the file from being accessed by a URL directly.                                                               
+// Ta linia chroni plik przed bezpośrednim dostępem z adresu URL.                                                              
 defined('MOODLE_INTERNAL') || die();                                                                                                
                                                                                                                                     
-// This is the version of the plugin.                                                                                               
+// To jest wersja wtyczki.                                                                                              
 $plugin->version = '2016102100';                                                                                                    
                                                                                                                                     
-// This is the version of Moodle this plugin requires.                                                                              
+// To jest wersja Moodle, której wymaga ta wtyczka.                                                                              
 $plugin->requires = '2016070700';                                                                                                   
                                                                                                                                     
-// This is the component name of the plugin - it always starts with 'theme_'                                                        
-// for themes and should be the same as the name of the folder.                                                                     
+// To jest nazwa komponentu wtyczki — zawsze zaczyna się od „theme_” dla motywów i powinna być taka sama jak nazwa folderu.                                                                  
 $plugin->component = 'theme_first_theme';                                                                                                 
                                                                                                                                     
-// This is a list of plugins, this plugin depends on (and their versions).                                                          
+// To jest lista wtyczek, od których zależy ta wtyczka (i ich wersje).                                                          
 $plugin->dependencies = [                                                                                                           
     'theme_boost' => '2016102100'                                                                                                   
 ];

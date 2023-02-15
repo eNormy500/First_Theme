@@ -1,49 +1,50 @@
 <?php
 
-// Every file should have GPL and copyright in the header - we skip it in tutorials but you should not skip it for real.
+// Każdy plik powinien mieć w nagłówku GPL i copyright - pomijamy to w tutorialach, ale naprawdę nie powinieneś tego pomijać.
 
-// This line protects the file from being accessed by a URL directly.                                                               
+
+// Ta linia chroni plik przed bezpośrednim dostępem z adresu URL.
 defined('MOODLE_INTERNAL') || die();
-// The name of the second tab in the theme settings.                                                                                
+// Nazwa drugiej zakładki w ustawieniach motywu.                                                                               
 $string['advancedsettings'] = 'Advanced settings';                                                                                  
-// The brand colour setting.                                                                                                        
+// Ustawienie kolorów marki.                                                                                                   
 $string['brandcolor'] = 'Brand colour';                                                                                             
-// The brand colour setting description.                                                                                            
+// Opis ustawienia koloru marki.                                                                                          
 $string['brandcolor_desc'] = 'The accent colour.';     
-// A description shown in the admin theme selector.                                                                                 
+// Opis wyświetlany w selektorze motywu administratora.                                                                                 
 $string['choosereadme'] = 'Theme photo is a child theme of Boost. It adds the ability to upload background photos.';                
-// Name of the settings pages.                                                                                                      
+// Nazwa stron ustawień.                                                                                                     
 $string['configtitle'] = 'Photo settings';                                                                                          
-// Name of the first settings tab.                                                                                                  
+// Nazwa pierwszej zakładki ustawień.                                                                                                  
 $string['generalsettings'] = 'General settings';                                                                                    
-// The name of our plugin.                                                                                                          
+// Nazwa naszej wtyczki.                                                                                                         
 $string['pluginname'] = 'Photo';                                                                                                    
-// Preset files setting.                                                                                                            
+// Ustawienia plików predefiniowanych.                                                                                                            
 $string['presetfiles'] = 'Additional theme preset files';                                                                           
-// Preset files help text.                                                                                                          
+// Tekst pomocy dla plików presetów.                                                                                                          
 $string['presetfiles_desc'] = 'Preset files can be used to dramatically alter the appearance of the theme. See <a href=https://docs.moodle.org/dev/Boost_Presets>Boost presets</a> for information on creating and sharing your own preset files, and see the <a href=http://moodle.net/boost>Presets repository</a> for presets that others have shared.';
-// Preset setting.                                                                                                                  
+// Predefiniowane ustawienie.                                                                                                                  
 $string['preset'] = 'Theme preset';                                                                                                 
-// Preset help text.                                                                                                                
+// Predefiniowany tekst pomocy.                                                                                                                
 $string['preset_desc'] = 'Pick a preset to broadly change the look of the theme.';                                                  
-// Raw SCSS setting.                                                                                                                
+// Surowe ustawienie SCSS.                                                                                                               
 $string['rawscss'] = 'Raw SCSS';                                                                                                    
-// Raw SCSS setting help text.                                                                                                      
+// Surowy tekst pomocy ustawień SCSS.                                                                                                     
 $string['rawscss_desc'] = 'Use this field to provide SCSS or CSS code which will be injected at the end of the style sheet.';       
-// Raw initial SCSS setting.                                                                                                        
+// Surowe początkowe ustawienie SCSS.                                                                                                        
 $string['rawscsspre'] = 'Raw initial SCSS';                                                                                         
-// Raw initial SCSS setting help text.                                                                                              
+// Surowy tekst pomocy dotyczący początkowych ustawień SCSS.                                                                                             
 $string['rawscsspre_desc'] = 'In this field you can provide initialising SCSS code, it will be injected before everything else. Most of the time you will use this setting to define variables.';
-// We need to include a lang string for each block region.                                                                          
+// Musimy dołączyć łańcuch lang dla każdego regionu bloku.                                                                         
 $string['region-side-pre'] = 'Right';
 
 
 
 
 
-// Background image for login page.                                                                                                 
+// Obraz tła strony logowania.                                                                                                 
 $string['loginbackgroundimage'] = 'Login page background image';                                                                    
-// Background image for login page.                                                                                                 
+// Obraz tła strony logowania.                                                                                                 
 $string['loginbackgroundimage_desc'] = 'An image that will be stretched to fill the background of the login page.';
 
 
